@@ -5,7 +5,7 @@ maintain mental and physical work. A recommendation system is targeted to help p
 
 ## ⚙️ What it does?
 
-**Emusify is a real-time emotion-based music recommendation system using machine learning**. This system will calculate and predict the emotion/mood of the user for a stipulated time period and will play a song according to the mood of the user, for example, if the user is in a calm state or neutral state then a calming, meditation song will be played, script will be continuously running in background so if any emotion changes after 5-6 min then again a new song will be played.
+**Emusify is a real-time mood-based music recommendation system using machine learning**. This system will calculate and predict the emotion/mood of the user for a stipulated time period and will play a song according to the mood of the user, for example, if the user is in a calm state or neutral state then a calming, meditation song will be played, script will be continuously running in background so if any emotion changes after 5-6 min then again a new song will be played.
 
 ## 🔧 How we built it?
 
@@ -15,7 +15,7 @@ maintain mental and physical work. A recommendation system is targeted to help p
 
 ● Machine Learning
 
-Emusify is a real-time emotion-based music recommendation system using machine learning.
+Emusify is a real-time mood-based music recommendation system using machine learning.
 
 This project has three main parts:
 
@@ -45,12 +45,7 @@ recognize the emotions of a face.
 The model is saved in the model.h5 file and all the label predictions are
 saved in the label.npy file.
 
-I have loaded the model and labels in the inference script. The inference
-will capture the frames in real-time and if we can see any face or hand in
-the frame then by using the Mediapipe library it will be detecting the
-landmarks and will be storing the key points.
-The model will be predicting the landmarks and drawing the points over the
-face and hands key points.
+I have loaded the model and labels in the inference script.
 Finally, the prediction of emotion can be seen on the screen according to
 the emotion made by the user.
 Now part comes for the prediction of songs on the basis of the emotions of
@@ -76,10 +71,6 @@ I ran into challenges during data collection, capturing 990 images of a particul
 We are proud that in this short period of time we were able to make a recommendation system and that to working very efficiently.
 
 We can also edit the code for capturing multiple people's emotions and collaborative song recommendations on the basis of multiple people's emotions. 
-
-Paying attention to various factors, such as particular context, personal parameters, feelings, and emotions, is highly important to the decision-making process of recommendations. 
-
-By feeding the data from various sources, the system is aimed to listen to each particular user and understand their purposes of listening, feelings, and contextual preferences to select the best-suited music pieces for them. We observed what kind of data is needed for the recommendation system and how it can be fetched.
 
 ## What we learned 🤔
 
