@@ -1,4 +1,4 @@
-## Emusify
+# Emusify
 
 ## 💡 Inspiration
 
@@ -25,7 +25,7 @@ This project has three main parts:
 
 ❖ Data Training
 
-❖ Data Inference
+❖ Data Testing
 
 This project uses Mediapipe holistic which will return all the landmark key
 points. Mediapipe Holistic is one of the pipelines which contains optimized
@@ -41,13 +41,7 @@ emotions.
 After collecting all data we have to load the data then send it for the dense
 neural network training part.
 
-The data training python script is used to train a custom supervised
-machine learning model using Tensorflow and Keras that will be able to
-recognize the emotions of a face.
-The model is saved in the model.h5 file and all the label predictions are
-saved in the label.npy file.
-
-I have loaded the model and labels in the inference script.
+I have loaded the model and labels in the testing script.
 Finally, the prediction of emotion can be seen on the screen according to
 the emotion made by the user.
 Now part comes for the prediction of songs on the basis of the emotions of
