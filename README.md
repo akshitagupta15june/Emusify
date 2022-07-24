@@ -1,5 +1,9 @@
 # Emusify
 
+**Emusify is a real-time mood-based music recommendation system that runs in the background and plays music according to a user's mood.**
+
+<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/038/759/datas/gallery.jpg">
+
 ## 💡 Inspiration
 
 In this era, music platforms provide easy access to large amounts of music. They are working continuously to improve music organization and search management thereby addressing the problem of choice and simplifying exploring new music pieces. Recommendation systems gain more and more popularity and help people to select appropriate music for all occasions. However, there is still a gap in personalization and emotion-driven recommendations. Music has a great influence on humans and is widely used for relaxing, mood regulation, destruction from stress and diseases, to
@@ -7,7 +11,7 @@ maintain mental and physical work. A recommendation system is targeted to help p
 
 ## ⚙️ What it does?
 
-**Emusify is a real-time mood-based music recommendation system using machine learning**. This system will calculate and predict the emotion/mood of the user for a stipulated time period and will play a song according to the mood of the user, for example, if the user is in a calm state or neutral state then a calming, meditation song will be played, script will be continuously running in background so if any emotion changes after 5-6 min then again a new song will be played.
+This system will continuously run in background and calculate and predict the mood of the user for a stipulated time period and will play a song according to the mood of the user, for example, if the user is in a calm state or neutral state then a calming, meditation song will be played, script will be continuously running in background so if any emotion changes after 5-6 min then again a new song will be played.
 
 ## 🔧 How we built it?
 
@@ -17,26 +21,24 @@ maintain mental and physical work. A recommendation system is targeted to help p
 
 ● Machine Learning
 
-Emusify is a real-time mood-based music recommendation system using machine learning.
+Emusify is a real-time mood-based music recommendation system using machine learning and keras dataset.
 
 This project has three main parts:
 
-❖ Data Collection
+❖ Data Collection 
 
 ❖ Data Training
 
 ❖ Data Testing
 
-This project uses Mediapipe holistic which will return all the landmark key
+This project uses Mediapipe which will return all the landmark key
 points. Mediapipe Holistic is one of the pipelines which contains optimized
 face, hands, and pose components that allow for holistic tracking, thus
 enabling the model to simultaneously detect hand and body poses along
-with face landmarks. The key points of the face, left and right hand are
-extracted using Mediapipe, then these key points are collected and saved as
-a NumPy file.
+with face landmarks.
 We have to run the data collection script every time for all the emotions and
 in this project, I have collected approx 1000 images of 6 particular
-emotions.
+emotions as well as keras emotion dataset.
 
 After collecting all data we have to load the data then send it for the dense
 neural network training part.
@@ -49,6 +51,10 @@ the user, so for this, we need to create a local directory of songs.
 
 Inside the song folder, we need to add folders of emotion and 5-6 songs
 with respect to that emotion inside that folder.
+
+<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/039/019/datas/gallery.jpg" height=200>
+
+<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/039/050/datas/gallery.jpg"  height=200>
 
 Whenever the user comes in front of the webcam then we will add a time of
 approx 15-20 sec to calculate the emotions of the user.
