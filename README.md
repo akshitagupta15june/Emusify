@@ -2,7 +2,6 @@
 
 **Emusify is a real-time mood-based music recommendation system that runs in the background and plays music according to a user's mood.**
 
-<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/038/759/datas/gallery.jpg">
 
 ## 💡 Inspiration
 
