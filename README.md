@@ -51,9 +51,6 @@ the user, so for this, we need to create a local directory of songs.
 Inside the song folder, we need to add folders of emotion and 5-6 songs
 with respect to that emotion inside that folder.
 
-<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/039/019/datas/gallery.jpg" height=200>
-
-<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/039/050/datas/gallery.jpg"  height=200>
 
 Whenever the user comes in front of the webcam then we will add a time of
 approx 15-20 sec to calculate the emotions of the user.
